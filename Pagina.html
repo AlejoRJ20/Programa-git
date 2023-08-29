@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merk2 Cogua</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+    
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo" >logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="#">Inicio</a></li>
+                    <li> <a href="#servicios">Servicios</a></li>
+                    <li> <a href="#nosotros">Acerca de</a></li>
+                    <li> <a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagenes/car.png" height=40 alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2" >Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Merk2 Cogua</h1>
+                <p>
+                    Merk2, con su marca de Supermercado Merk2, fue creada en 1999 en Cogua Cundinamarca,
+                    convirtiéndose en la primera cadena de descuento en llegar al Municipio, 
+                    con un formato que revolucionó la manera de hacer mercado de los coguanos. 
+                    Cuenta con más de 100 empleados, promoviendo la equidad de género y la inclusión de personas 
+                    con diversidad cognitiva.
+                </p>
+        </div>
+    </header>
+
+
+    <section class="icons">
+
+        <div class="icon">
+            <img src="imagenes/icon-1.png"alt="">
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-2.png"alt="">
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-4.png"alt="">
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-5.png"alt=""> 
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-3.png"alt="">
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-6.png" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-7.png" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-8.png" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-9.png" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="imagenes/icon-10.png" alt="">
+        </div>
+
+    </section>
+
+
+
+    <section class="products containers" id="lista-1">
+
+        <h2>Productos</h2>
+
+        <div class="products-content">
+
+            <div class="product">
+                <img src="imagenes/aceite.png" alt="">
+                <div class="product-txt">
+                    <h3>Aceite</h3>
+                    <p>2000ml</p>
+                    <p class="precio">$24.560cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/arroz.png" alt="">
+                <div class="product-txt">
+                    <h3>Arroz</h3>
+                    <p>500gm</p>
+                    <p class="precio">$1.820cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>   
+            </div>
+
+            <div class="product">
+                <img src="imagenes/azucar.png" alt="">
+                <div class="product-txt">
+                    <h3>Azucar</h3>
+                    <p>1000gm</p>
+                    <p class="precio">$4.570cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div> 
+            </div>
+            
+            <div class="product">
+                <img src="imagenes/cafe.png" alt="">
+                <div class="product-txt">
+                    <h3>Cafe</h3>
+                    <p>125gm</p>
+                    <p class="precio">$3.490cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/chocolate.png" alt="">
+                <div class="product-txt">
+                    <h3>chocolate</h3>
+                    <p>320gm</p>
+                    <p class="precio">$7.590cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/frijol.png" alt="">
+                <div class="product-txt">
+                    <h3>Frijol</h3>
+                    <p>500gm</p>
+                    <p class="precio">$7.590cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/gelatina.png" alt="">
+                <div class="product-txt">
+                    <h3>Gelatina</h3>
+                    <p>Caja X3</p>
+                    <p class="precio">$2.850cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/pasta.png" alt="">
+                <div class="product-txt">
+                    <h3>Pasta</h3>
+                    <p>250gm</p>
+                    <p class="precio">$2.125cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/sal.png" alt="">
+                <div class="product-txt">
+                    <h3>Sal</h3>
+                    <p>1000gm</p>
+                    <p class="precio">$2.210cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="9">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/colgate.png" alt="">
+                <div class="product-txt">
+                    <h3>Colgate</h3>
+                    <p>100ml</p>
+                    <p class="precio">$6.350cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="10">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/desodorante.png" alt="">
+                <div class="product-txt">
+                    <h3>Desodorante</h3>
+                    <p>150ml</p>
+                    <p class="precio">$6.890cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="11">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/dientes.png" alt="">
+                <div class="product-txt">
+                    <h3>Cepillo de dientes</h3>
+                    <p>Caja x2</p>
+                    <p class="precio">$2.990cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="12">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/jabon cuerpo.png" alt="">
+                <div class="product-txt">
+                    <h3>Jabon corpoal</h3>
+                    <p>Caja x3 und</p>
+                    <p class="precio">$5.500cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="13">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/shampoo.png" alt="">
+                <div class="product-txt">
+                    <h3>Shampoo</h3>
+                    <p>370ml</p>
+                    <p class="precio">$14.000cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="14">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/papel higienico.png" alt="">
+                <div class="product-txt">
+                    <h3>Papel higienico</h3>
+                    <p>12 und</p>
+                    <p class="precio">$14.000cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="15">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/jabon.png" alt="">
+                <div class="product-txt">
+                    <h3>Detergente en polvo</h3>
+                    <p>6000gm</p>
+                    <p class="precio">$40.000cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="16">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/lavaloza.png" alt="">
+                <div class="product-txt">
+                    <h3>Lavaloza</h3>
+                    <p>750ml</p>
+                    <p class="precio">$5.160cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="17">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/limpiapisos.png" alt="">
+                <div class="product-txt">
+                    <h3>Limpiapisos</h3>
+                    <p>750ml</p>
+                    <p class="precio">$4.470cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="18">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/gatos.png" alt="">
+                <div class="product-txt">
+                    <h3>Comida para gatos</h3>
+                    <p>1000gm</p>
+                    <p class="precio">$6.190cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="19">Agregar al carrito</a>
+                </div> 
+            </div>
+
+            <div class="product">
+                <img src="imagenes/perros.png" alt="">
+                <div class="product-txt">
+                    <h3>Comida para perros</h3>
+                    <p>1000gm</p>
+                    <p class="precio">$4.890cop</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="20">Agregar al carrito</a>
+                </div> 
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </section>
+    
+    <section class="services" >
+        <h2 id="servicios">Servicios</h2>
+
+        <div class="services-content container">
+
+            <div class="service">
+                <h3>Productos</h3>
+                <hr>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Soluta atque doloremque facilis commodi ex numquam voluptate 
+                    aliquam pariatur modi repellat consequatur.
+                </p>
+            </div>
+            <div class="service">
+                <h3>Productos</h3>
+                <hr>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Soluta atque doloremque facilis commodi ex numquam voluptate 
+                    aliquam pariatur modi repellat consequatur.
+                </p>
+            </div>
+            <div class="service">
+                <h3>Productos</h3>
+                <hr>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Soluta atque doloremque facilis commodi ex numquam voluptate 
+                    aliquam pariatur modi repellat consequatur.
+                </p>
+            </div>
+            <div class="service">
+                <h3>Productos</h3>
+                <hr>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Soluta atque doloremque facilis commodi ex numquam voluptate 
+                    aliquam pariatur modi repellat consequatur.
+                </p>
+            </div>  
+    </section>
+
+    <section class="acerca_de" >
+        <h2 id="nosotros">Nosotros</h2>
+
+        <div class="acerca_de-content container">
+
+            <div class="acerca">
+                <h3>Historia</h3>
+            <hr>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Nam facere voluptatum ea in unde, esse veritatis saepe non 
+                nostrum sequi praesentium culpa debitis dolorem laudantium e
+                st ipsam, deserunt dolore reiciendis!
+            </p>
+            </div>
+            <div class="acerca">
+                <h3>Mision</h3>
+            <hr>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Nam facere voluptatum ea in unde, esse veritatis saepe non 
+                nostrum sequi praesentium culpa debitis dolorem laudantium e
+                st ipsam, deserunt dolore reiciendis!
+            </p>
+            </div>
+            <div class="acerca">
+                <h3>Vision</h3>
+            <hr>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Nam facere voluptatum ea in unde, esse veritatis saepe non 
+                nostrum sequi praesentium culpa debitis dolorem laudantium e
+                st ipsam, deserunt dolore reiciendis!
+            </p>
+            </div>
+
+        
+
+    </section>
+    
+    <section class="contact">
+
+        <div class="header-contact">
+            
+            <form action="#" >
+
+                <h2 id="contacto">¡Contactanos!</h2>
+                
+                <label for="username">Nombre</label>
+                <input type="text" name="username" id="username" required><br>
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" required>
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono" required>
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="7" required></textarea>
+                <button type= "submit" value="#">Enviar</button>
+            </form>  
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
