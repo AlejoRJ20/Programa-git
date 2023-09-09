@@ -1,0 +1,22 @@
+{
+    "clientes":{
+        "001":{
+            "Nombre":"Jose Ordoñez",
+            "Telefono":"3020457963",
+            "Email": "joseO@gmail.com",
+            "direccion" : "usaquen - bogota"
+        },
+        "002":{
+            "Nombre":"Camila Ortiz",
+            "Telefono":"3002589478",
+            "Email": "cami@gmail.com",
+            "direccion" : "soacha - cundinamarca"
+        },
+        "003":{
+            "Nombre":"Juliana Valencia",
+            "Telefono":"3025789635",
+            "Email": "julivale@gmail.com",
+            "direccion" : "chia - cundinamarca"
+        }
+    }
+}

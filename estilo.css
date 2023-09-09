@@ -453,10 +453,6 @@ button:hover {
         display: none;
     }
 
-    .submenu:hover #carrito{
-        min-width: 100%;
-    }
-
     .header {
         min-height: 0vh;
     }
@@ -477,4 +473,22 @@ button:hover {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .services{
+        padding: 30px;
+    }
+    .services-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .acerca_de{
+        padding: 30px;
+    }
+    .acerca_de-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
 }
